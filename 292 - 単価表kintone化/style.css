@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+#tblPrice {
+    border-collapse: collapse; /* 合并边框，确保相邻单元格之间没有间隙 */
+
+}
+#tblPrice th,#tblPrice td {
+    border: 1px solid black; /* 设置单元格边框 */
+    padding: 0; /* 设置单元格内边距 */
+    text-align: center; /* 文本左对齐 */
+    height:48px;
+}
+#tblPrice th{
+  background-color: black;
+  color:white;
+}
+
+#tblPrice td > input{
+  height:100%;
+  border:none;
+}
+.realcost{
+  color:blue;
+}
+.nananTd{
+  background-color: lightyellow;
+}
+.gaisakuTd{
+  background-color: lightpink;
+}
+
+.nestedTable{
+  width: calc(100% - 0px);
+  height:100%;
+  border-collapse: collapse; /* 移除表格间隙 */
+}
+td.nestedTable{
+  height:10px;
+  border: none!important;
+}
+.nestedCell1{
+  border-bottom:1px dashed blue;
+}
+
+/*.myalign {*/
+/*    text-align: center!important;*/
+/*}*/
+.alias{
+  font-size: 12px;
+}
+
+.proity{
+ border: 5px solid red!important;
+}
